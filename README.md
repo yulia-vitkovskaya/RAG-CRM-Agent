@@ -34,6 +34,7 @@ docker run -p 8000:8000 rag-crm-agent
 [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ### Структура проекта
+```text
 ├── data/                  # Документы и векторная база
 │   ├── source_docs/
 │   └── vectorstore/
@@ -48,4 +49,5 @@ docker run -p 8000:8000 rag-crm-agent
 ├── start.sh              # Uvicorn-стартер
 ├── requirements.txt
 └── README.md
+```
 
